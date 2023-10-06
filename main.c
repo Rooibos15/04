@@ -5,16 +5,12 @@
 
 int main(int argc, char *argv[]) {
 	
-	int a, b;
+	int sec;
 	
-	printf("input two integers : ");
-	scanf("%i %i", &a, &b);
+	printf("input seconds : ");
+	scanf("%i", &sec);
 	
-	printf("%i + %i = %i \n", a, b, a+b);
-	printf("%i - %i = %i \n", a, b, a-b);
-	printf("%i * %i = %i \n", a, b, a*b);
-	printf("%i / %i = %i \n", a, b, a/b);
-	printf("%i %% %i = %i \n", a, b, a%b);
+	printf("%i seconds - %i:%i \n", sec, sec/60, sec%60);
 	
 	system("PAUSE"); 
 	return 0;
